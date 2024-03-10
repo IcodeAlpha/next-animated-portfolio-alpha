@@ -3,6 +3,7 @@ import React from 'react'
 import Navbar from '@/components/navbar'
 import Image from 'next/image';
 import {motion} from "framer-motion";
+import Link from 'next/link';
 
 export default function HomePage() {
   return (
@@ -21,8 +22,12 @@ export default function HomePage() {
         Welcome to my digital canvas, where innovation and creativity converge. With a keen eye for aesthetics and a mystery of code, my portfolio showcases a diverse collection of projects that reflect my commitment to excellence.</p>
       {/* BUTTONS*/}
       <div className='w-full flex gap-4'>
-        <button className="p-4 rounded-lg ring-1 ring-black bg-black text-white">View My Work</button>
-        <button className="p-4 rounded-lg ring-1 ring-black">Contact Me</button>
+        <button className="p-4 rounded-lg ring-1 ring-black bg-black text-white">
+          <Link href="/portfolio">View My Work</Link>    
+          </button>
+        <button className="p-4 rounded-lg ring-1 ring-black">
+        <Link href="/contacts">Contact Me</Link>  
+        </button>
       </div>
      </div>
     </div>
