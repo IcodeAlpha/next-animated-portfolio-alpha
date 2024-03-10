@@ -11,7 +11,7 @@ import {motion} from "framer-motion";
     {url:"/", title: "Home"},
     {url:"/about", title: "About"},
     {url:"/portfolio", title: "Portfolio"},
-    {url:"/contact", title: "Contact"},
+    {url:"/contacts", title: "Contact"},
   ];
 
 const Navbar = () => {
