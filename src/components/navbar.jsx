@@ -95,8 +95,8 @@ const Navbar = () => {
         <Link href="/">
          <Image src="/facebook.png" alt="" width={24} height={24} />
         </Link>
-        <Link href="/">
-         <Image src="/pinterest.png" alt="" width={24} height={24} />
+        <Link target="https://twitter.com/ICodeAlpha" rel="https://twitter.com/ICodeAlpha" href="https://twitter.com/ICodeAlpha">
+         <Image src="/x.png" alt="" width={24} height={24} />
         </Link>
         <Link href="/">
          <Image src="/linkedin.png" alt="" width={24} height={24} />
