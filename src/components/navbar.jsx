@@ -86,13 +86,10 @@ const Navbar = () => {
       </div>
       {/*SOCIAL*/}
       <div className="hidden md:flex gap-4 w-1/3">
-        <Link href="/">
+        <Link target="https://github.com/IcodeAlpha" rel="https://github.com/IcodeAlpha" href="https://github.com/IcodeAlpha">
          <Image src="/github.png" alt="" width={24} height={24} />
         </Link>
-        <Link href="/">
-         <Image src="/dribbble.png" alt="" width={24} height={24} />
-        </Link>
-        <Link href="/">
+        <Link target="https://www.instagram.com/codealpha4" rel="https://www.instagram.com/codealpha4" href="https://www.instagram.com/codealpha4">
          <Image src="/instagram.png" alt="" width={24} height={24} />
         </Link>
         <Link href="/">
