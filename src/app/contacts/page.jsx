@@ -24,6 +24,7 @@ const ContactPage = () => {
         },
         (error) => {
           setError(true);
+          console.log(error)
         },
       );
   };

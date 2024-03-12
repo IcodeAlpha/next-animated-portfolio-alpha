@@ -1,6 +1,5 @@
 "use client"
 import React from 'react'
-import Navbar from '@/components/navbar'
 import Image from 'next/image';
 import {motion} from "framer-motion";
 import Link from 'next/link';
@@ -33,4 +32,4 @@ export default function HomePage() {
     </div>
     </motion.div>
   );
-};
+}
