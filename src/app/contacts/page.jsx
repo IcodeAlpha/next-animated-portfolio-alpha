@@ -65,8 +65,6 @@ const ContactPage = () => {
             <button className="bg-purple-200 rounded font-semibold text-gray-600 p-4">Send</button>
             {success && <span className="text-green-600 font-semibold">Your message has been sent successfully!</span>}
             {error && <span className="text-red-600 font-semibold">Something went wrong!</span>}
-            
-
           </form>
         </div>
       </motion.div>

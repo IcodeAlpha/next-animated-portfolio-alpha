@@ -36,7 +36,7 @@ const TransitionProvider = ({children}) => {
           </div>
           <div className="h-[calc(100vh-6rem)]">{children}</div>
         </div>
-        <div className=''>TransitionProvider</div>
+        <div className=''></div>
         </AnimatePresence>
     );
     };
