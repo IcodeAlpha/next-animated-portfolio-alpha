@@ -37,6 +37,14 @@ const items = [
   img:"/work-3.png",
   link: "https://don-house.vercel.app/",
 },
+{
+  id: 5,
+  color: "from-green-300 to-red-300",
+  title: "Travel Safe",
+  desc: "Travel site landing page.",
+  img:"/work-3.png",
+  link: "https://travelapp-lake.vercel.app/",
+},
 ];
 
 const PortfolioPage = () => {
