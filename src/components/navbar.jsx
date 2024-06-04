@@ -5,7 +5,7 @@ import Link from "next/link";
 import { useState } from "react";
 import NavLink from "./navLink";
 import {motion} from "framer-motion";
-
+import Blog from "@/app/blogs/page";
 
   const links = [
     {url:"/", title: "Home"},

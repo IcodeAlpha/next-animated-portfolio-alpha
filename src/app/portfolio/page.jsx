@@ -5,46 +5,47 @@ import Link from "next/link";
 import { useRef } from "react"
 
 const items = [
+  {
+    id: 1,
+    color: "from-red-300 to-green-300",
+    title: "Evently",
+    desc: "A fullstack web application for an event platform where users can host, connect and celebrate events.",
+    img:"/evently.png",
+    link: "https://eventa-lake.vercel.app//",
+  },
+  {
+    id: 2,
+    color: "from-green-300 to-blue-300",
+    title: "Travel Safe",
+    desc: "Travel site landing page.",
+    img:"/work-3.png",
+    link: "https://travelapp-lake.vercel.app/",
+  },
 {
-  id: 1,
-  color: "from-green-300 to-blue-300",
+  id: 3,
+  color: "from-blue-300 to-purple-300",
   title: "SocialBook clone",
   desc: "The clone of a socialmedia website that connects you to the talented people around the world",
   img: "https://images.pexels.com/photos/18073372/pexels-photo-18073372/free-photo-of-young-man-sitting-in-a-car-on-a-night-street.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load",
   link: "https://socialbook-tau.vercel.app/",
 },
 {
-  id: 2,
-  color: "from-blue-300 to-purple-300",
+  id: 4,
+  color: "from-purple-300 to-violet-300",
   title: "Quote Generator",
   desc: "A simple website that generates qoutes and share on social media.",
   img: "https://images.pexels.com/photos/18023772/pexels-photo-18023772/free-photo-of-close-up-of-a-person-holding-a-wristwatch.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load",
   link: "https://quote-generator-one-iota.vercel.app/",
 },
 {
-  id: 3,
-  color: "from-purple-300 to-violet-300",
-  title: "Vidtube Clone",
-  desc: "The clone of a videos website that gives access to watch and upload videos.",
-  img: "https://images.pexels.com/photos/6894528/pexels-photo-6894528.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load",
-  link: "https://vidtube-virid.vercel.app/",
-},
-{
-  id: 4,
+  id: 5,
   color: "from-violet-300 to-green-300",
   title: "Online shop clone",
   desc: "The clone of an online shopping market.",
   img:"/work-3.png",
   link: "https://don-house.vercel.app/",
 },
-{
-  id: 5,
-  color: "from-green-300 to-red-300",
-  title: "Travel Safe",
-  desc: "Travel site landing page.",
-  img:"/work-3.png",
-  link: "https://travelapp-lake.vercel.app/",
-},
+
 ];
 
 const PortfolioPage = () => {
