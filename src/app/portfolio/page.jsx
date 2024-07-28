@@ -24,10 +24,10 @@ const items = [
 {
   id: 3,
   color: "from-blue-300 to-purple-300",
-  title: "SocialBook clone",
-  desc: "The clone of a socialmedia website that connects you to the talented people around the world",
-  img: "https://images.pexels.com/photos/18073372/pexels-photo-18073372/free-photo-of-young-man-sitting-in-a-car-on-a-night-street.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load",
-  link: "https://socialbook-tau.vercel.app/",
+  title: "Banking Application",
+  desc: "A real fullstack banking application that facilitates managing and using diffrerent bank and bank accounts globally",
+  img: "horizon.png",
+  link: "https://finance-mu-eight.vercel.app/",
 },
 {
   id: 4,
