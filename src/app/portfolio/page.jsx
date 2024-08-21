@@ -32,10 +32,10 @@ const items = [
 {
   id: 4,
   color: "from-purple-300 to-violet-300",
-  title: "Quote Generator",
-  desc: "A simple website that generates qoutes and share on social media.",
-  img: "https://images.pexels.com/photos/18023772/pexels-photo-18023772/free-photo-of-close-up-of-a-person-holding-a-wristwatch.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load",
-  link: "https://quote-generator-one-iota.vercel.app/",
+  title: "CarePulse",
+  desc: "A patient management system",
+  img: "carepulse.PNG",
+  link: "https://carepulse-pied.vercel.app/",
 },
 {
   id: 5,
