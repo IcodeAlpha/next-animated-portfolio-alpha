@@ -30,9 +30,8 @@ const AboutPage = () => {
               <h1 className="font-bold text-2xl">BIOGRAPHY</h1>
               {/*BIOGRAPHY DESC*/}
               <p className="text-lg">
-              I&apos;m a self taught digital product designer and frontend developer who designs and code beautifully simple things. I love to create simple content structures, clean design patterns and thoughtful interactions and code things from scratch, break down wierd and wonderful ideas and bring them to life. I&apos;ve done remote work for personal clients and collaborated with talented developers to create digital products for consumer use. 
-              I create custom design sites for individuals and small companies. Working as a freelancer, I&apos;m agile and able to move quickly and adapt to working conditions. 
-              Being both a designer and developer ensures no detail is lost in transition of building products.
+              I&apos;m a talented and creative developer and digital product designer and who designs and code beautifully simple things. I love to create simple content structures and break down wierd and wonderful ideas and bring them to life. I&apos;m agile and able to move quickly and adapt to working conditions. 
+              I ensures no detail is lost in transition of building products.
               </p>
               {/*BIOGRAPHY QUOTE*/}
               <span className="italic">

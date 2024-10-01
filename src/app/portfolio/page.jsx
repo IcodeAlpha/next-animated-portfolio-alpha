@@ -26,7 +26,7 @@ const items = [
   color: "from-blue-300 to-purple-300",
   title: "Banking Application",
   desc: "A real fullstack banking application that facilitates managing and using diffrerent bank and bank accounts globally",
-  img: "horizon.png",
+  img: "/horizon.png",
   link: "https://finance-mu-eight.vercel.app/",
 },
 {
@@ -34,16 +34,16 @@ const items = [
   color: "from-purple-300 to-violet-300",
   title: "CarePulse",
   desc: "A patient management system",
-  img: "carepulse.PNG",
+  img: "/carepulse.PNG",
   link: "https://carepulse-pied.vercel.app/",
 },
 {
   id: 5,
   color: "from-violet-300 to-green-300",
-  title: "Online shop clone",
-  desc: "The clone of an online shopping market.",
+  title: "Expense Tracker",
+  desc: "A Budgeting and Expense Tracking app.",
   img:"/work-3.png",
-  link: "https://don-house.vercel.app/",
+  link: "https://expensetrack-alpha.vercel.app/",
 },
 
 ];
