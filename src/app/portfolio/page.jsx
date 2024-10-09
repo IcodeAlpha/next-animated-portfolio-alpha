@@ -45,6 +45,14 @@ const items = [
   img:"/work-3.png",
   link: "https://expensetrack-alpha.vercel.app/",
 },
+{
+  id: 5,
+  color: "from-green-300 to-red-300",
+  title: "Restaurant UX Design",
+  desc: "A Healthy Dining Restaurant.",
+  img:"/chef.png",
+  link: "https://restaurant-kohl-seven.vercel.app/",
+},
 
 ];
 
