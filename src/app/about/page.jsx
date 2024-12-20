@@ -79,37 +79,43 @@ const AboutPage = () => {
               <motion.h1 initial={{x:"-300px"}} animate={isSkillRefInView ? {x:0} : {}} transition={{delay: 0.2}} className="font-bold text-2xl">SKILLS</motion.h1>
               {/*SKILL LIST*/}
               <motion.div animate={isSkillRefInView ? {x:0} : {}} className='flex gap-4 flex-wrap'>
-                <div className='rounded p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black'>
+                <div className='rounded p-2 text-sm cursor-pointer bg-teal-600 text-white hover:bg-white hover:text-teal-600'>
                   JavaScript
                   </div>
-                  <div className='rounded p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black'>
+                  <div className='rounded p-2 text-sm cursor-pointer bg-teal-600 text-white hover:bg-white hover:text-teal-600'>
                   TypeScript
                   </div>
-                  <div className='rounded p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black'>
+                  <div className='rounded p-2 text-sm cursor-pointer bg-teal-600 text-white hover:bg-white hover:text-teal-600'>
                   React.js
                   </div>
-                  <div className='rounded p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black'>
+                  <div className='rounded p-2 text-sm cursor-pointer bg-teal-600 text-white hover:bg-white hover:text-teal-600'>
                   Next.js
                   </div>
-                  <div className='rounded p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black'>
-                  CSS
+                  <div className='rounded p-2 text-sm cursor-pointer bg-teal-600 text-white hover:bg-white hover:text-teal-600'>
+                  Databases
                   </div>
-                  <div className='rounded p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black'>
+                  <div className='rounded p-2 text-sm cursor-pointer bg-teal-600 text-white hover:bg-white hover:text-teal-600'>
                   Tailwind.CSS
                   </div>
-                  <div className='rounded p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black'>
+                  <div className='rounded p-2 text-sm cursor-pointer bg-teal-600 text-white hover:bg-white hover:text-teal-600'>
                   MongoDB
                   </div>
-                  <div className='rounded p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black'>
+                  <div className='rounded p-2 text-sm cursor-pointer bg-teal-600 text-white hover:bg-white hover:text-teal-600'>
                   PostgreSQL
                   </div>
-                  <div className='rounded p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black'>
+                  <div className='rounded p-2 text-sm cursor-pointer bg-teal-600 text-white hover:bg-white hover:text-teal-600'>
                   Node.js
                   </div>
-                  <div className='rounded p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black'>
-                  GraphQL
+                  <div className='rounded p-2 text-sm cursor-pointer bg-teal-600 text-white hover:bg-white hover:text-teal-600'>
+                  API Integration
                   </div>
-                  <div className='rounded p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black'>
+                  <div className='rounded p-2 text-sm cursor-pointer bg-teal-600 text-white hover:bg-white hover:text-teal-600'>
+                  Payment Processing Integration
+                  </div>
+                  <div className='rounded p-2 text-sm cursor-pointer bg-teal-600 text-white hover:bg-white hover:text-teal-600'>
+                  AI
+                  </div>
+                  <div className='rounded p-2 text-sm cursor-pointer bg-teal-600 text-white hover:bg-white hover:text-teal-600'>
                   Framer Motion
                   </div>
               </motion.div>
