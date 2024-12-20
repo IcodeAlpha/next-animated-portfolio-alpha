@@ -25,7 +25,7 @@ export default function HomePage() {
       WebkitTextFillColor: "transparent",
     }}
   >
-   Design
+   Clean Design
   </span>
 </h1>
       {/* DESC */}
