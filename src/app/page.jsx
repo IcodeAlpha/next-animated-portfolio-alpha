@@ -15,16 +15,28 @@ export default function HomePage() {
      {/* TEXT CONTAINER*/}
      <div className='h-1/2 lg:h-full lg:w-1/2 flex-col mt-4 lg:mt-0 gap-10 items-centre justify-center flex'>
       {/* TITLE*/}
-      <h1 className="text-4xl md:text-6xl font bold">Thoughtful Interactions, <span>Clean Design patterns.</span></h1>
+      <h1 className="text-4xl md:text-6xl font-bold">
+  Software Pub |{" "}
+  <span
+    className="font-bold"
+    style={{
+      background: "linear-gradient(to right, rgba(255, 0, 150, 1), rgba(0, 204, 255, 1))",
+      WebkitBackgroundClip: "text",
+      WebkitTextFillColor: "transparent",
+    }}
+  >
+   Design
+  </span>
+</h1>
       {/* DESC */}
-      <p className="md:text-xl">
-        Welcome to my digital canvas, where innovation and creativity converge.I breakdown weird ideas and bring them to life. With a keen eye for aesthetics and a mystery of code, my portfolio showcases a diverse collection of projects that reflect my commitment to excellence.</p>
+      <p className="text-bold md:text-xl text-teal-600">
+       My Digital Canvas. Innovation. Creativity</p>
       {/* BUTTONS*/}
       <div className='w-full flex gap-4'>
-        <button className="p-4 rounded-lg ring-1 ring-black bg-black text-white">
+        <button className="p-4 rounded-lg ring-1 ring-black bg-teal-600 text-white">
           <Link href="/portfolio">View My Work</Link>    
           </button>
-        <button className="p-4 rounded-lg ring-1 ring-black">
+        <button className="p-4 rounded-lg ring-1 ring-black text-teal-600">
         <Link href="/contacts">Contact Me</Link>  
         </button>
       </div>
