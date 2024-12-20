@@ -27,14 +27,13 @@ const AboutPage = () => {
             {/*BIOGRAPHY CONTAINER*/}
             <div className="flex flex-col gap-12 justify-center">
               {/*BIOGRAPHY TITLE*/}
-              <h1 className="font-bold text-2xl">BIOGRAPHY</h1>
+              <h1 className="font-bold text-2xl text-teal-600">BIOGRAPHY</h1>
               {/*BIOGRAPHY DESC*/}
-              <p className="text-lg">
-              I&apos;m a talented and creative developer and digital product designer and who designs and code beautifully simple things. I love to create simple content structures and break down wierd and wonderful ideas and bring them to life. I&apos;m agile and able to move quickly and adapt to working conditions. 
-              I ensures no detail is lost in transition of building products.
+              <p className="text-lg text-bold">
+              I am a skilled developer with a strong focus on building intuitive, user-centered solutions. I excel at transforming complex ideas into elegant, functional applications, ensuring simplicity and clarity in every project. My expertise lies in crafting seamless content structures and delivering high-quality digital experiences that balance creativity and precision. With a proactive and adaptable approach, I thrive in dynamic environments and guarantee attention to detail throughout the entire development process.
               </p>
               {/*BIOGRAPHY QUOTE*/}
-              <span className="italic">
+              <span className="italic text-teal-600">
                 Go on...Be Creative and Change the World.
               </span>
               {/*BIOGRAPHY SIGN SVG*/}
