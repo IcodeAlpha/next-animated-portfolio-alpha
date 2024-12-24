@@ -155,15 +155,15 @@ const AboutPage = () => {
                 <div className='w-1/3'>
                   {/*JOB TITLE*/}
                   <div className='bg-white p-3 font-semibold rounded-b-lg rounded-s-lg'>
-                    Freelance Nextjs Developer</div>
+                    Intern Frontend Developer at DeepTrack </div> 
                   {/*JOB DESC*/}
                   <div className='p-3 text-sm italic'>
-                    I enjoy working with the Nextjs framework to bring ideas to life
+                    I collaborated with a team to build UI of the company's website
                     </div>
                     {/*JOB DATE*/}
-                    <div className='p-3 text-green-400 text-sm font-semibold'>2023 - Present</div>
+                    <div className='p-3 text-green-400 text-sm font-semibold'>Nov 2024 - Dec 2024</div>
                     {/*JOB COMPANY*/}
-                    <div className='p-1 rounded bg-white text-sm font-semibold w-fit'>Freelance</div>
+                    <div className='p-1 rounded bg-white text-sm font-semibold w-fit'>Fulltime</div>
                    </div> 
                 {/*CENTER*/}
                 <div className='w-1/6'>
@@ -193,13 +193,14 @@ const AboutPage = () => {
                 <div className='w-1/3'>
                   {/*JOB TITLE*/}
                   <div className='bg-white p-3 font-semibold rounded-b-lg rounded-s-lg'>
-                    React and JavaScript Developer</div>
+                    React.js and Next.js Developer</div>
                   {/*JOB DESC*/}
                   <div className='p-3 text-sm italic'>
-                    indulged into JavaScript development and engineering using Reactjs.
+                    Indulged into React and Next frameworks and I have found them to be very useful to me.
+                    AI has also come in and is very useful to me as a user and developer.
                     </div>
                     {/*JOB DATE*/}
-                    <div className='p-3 text-red-400 text-sm font-semibold'>2022 - Present</div>
+                    <div className='p-3 text-red-400 text-sm font-semibold'>Jan 2023 - Present</div>
                     {/*JOB COMPANY*/}
                     <div className='p-1 rounded bg-white text-sm font-semibold w-fit'>Freelance</div></div>
                 </div>
@@ -209,10 +210,10 @@ const AboutPage = () => {
                 <div className='w-1/3'>
                   {/*JOB TITLE*/}
                   <div className='bg-white p-3 font-semibold rounded-b-lg rounded-s-lg'>
-                    HTML,CSS and Android Engineering</div>
+                    Learning HTML, CSS and JavaScript</div>
                   {/*JOB DESC*/}
                   <div className='p-3 text-sm italic'>
-                    Started my development career using HTML,CSS languages and also android development.
+                    Started my development career by learning HTML,CSS and JavaScript and have been my foundation in building web applications
                     </div>
                     {/*JOB DATE*/}
                     <div className='p-3 text-green-400 text-sm font-semibold'>2022 - Present</div>
