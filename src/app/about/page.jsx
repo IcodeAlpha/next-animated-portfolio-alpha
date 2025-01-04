@@ -27,14 +27,13 @@ const AboutPage = () => {
             {/*BIOGRAPHY CONTAINER*/}
             <div className="flex flex-col gap-12 justify-center">
               {/*BIOGRAPHY TITLE*/}
-              <h1 className="font-bold text-2xl">BIOGRAPHY</h1>
+              <h1 className="font-bold text-2xl text-teal-600">BIOGRAPHY</h1>
               {/*BIOGRAPHY DESC*/}
-              <p className="text-lg">
-              I&apos;m a talented and creative developer and digital product designer and who designs and code beautifully simple things. I love to create simple content structures and break down wierd and wonderful ideas and bring them to life. I&apos;m agile and able to move quickly and adapt to working conditions. 
-              I ensures no detail is lost in transition of building products.
+              <p className="text-lg text-bold">
+              I am a skilled developer with a strong focus on building intuitive, user-centered solutions. I excel at transforming complex ideas into elegant, functional applications, ensuring simplicity and clarity in every project. My expertise lies in crafting seamless content structures and delivering high-quality digital experiences that balance creativity and precision. With a proactive and adaptable approach, I thrive in dynamic environments and guarantee attention to detail throughout the entire development process.
               </p>
               {/*BIOGRAPHY QUOTE*/}
-              <span className="italic">
+              <span className="italic text-teal-600">
                 Go on...Be Creative and Change the World.
               </span>
               {/*BIOGRAPHY SIGN SVG*/}
@@ -80,37 +79,43 @@ const AboutPage = () => {
               <motion.h1 initial={{x:"-300px"}} animate={isSkillRefInView ? {x:0} : {}} transition={{delay: 0.2}} className="font-bold text-2xl">SKILLS</motion.h1>
               {/*SKILL LIST*/}
               <motion.div animate={isSkillRefInView ? {x:0} : {}} className='flex gap-4 flex-wrap'>
-                <div className='rounded p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black'>
+                <div className='rounded p-2 text-sm cursor-pointer bg-teal-600 text-white hover:bg-white hover:text-teal-600'>
                   JavaScript
                   </div>
-                  <div className='rounded p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black'>
+                  <div className='rounded p-2 text-sm cursor-pointer bg-teal-600 text-white hover:bg-white hover:text-teal-600'>
                   TypeScript
                   </div>
-                  <div className='rounded p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black'>
+                  <div className='rounded p-2 text-sm cursor-pointer bg-teal-600 text-white hover:bg-white hover:text-teal-600'>
                   React.js
                   </div>
-                  <div className='rounded p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black'>
+                  <div className='rounded p-2 text-sm cursor-pointer bg-teal-600 text-white hover:bg-white hover:text-teal-600'>
                   Next.js
                   </div>
-                  <div className='rounded p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black'>
-                  CSS
+                  <div className='rounded p-2 text-sm cursor-pointer bg-teal-600 text-white hover:bg-white hover:text-teal-600'>
+                  Databases
                   </div>
-                  <div className='rounded p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black'>
+                  <div className='rounded p-2 text-sm cursor-pointer bg-teal-600 text-white hover:bg-white hover:text-teal-600'>
                   Tailwind.CSS
                   </div>
-                  <div className='rounded p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black'>
+                  <div className='rounded p-2 text-sm cursor-pointer bg-teal-600 text-white hover:bg-white hover:text-teal-600'>
                   MongoDB
                   </div>
-                  <div className='rounded p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black'>
+                  <div className='rounded p-2 text-sm cursor-pointer bg-teal-600 text-white hover:bg-white hover:text-teal-600'>
                   PostgreSQL
                   </div>
-                  <div className='rounded p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black'>
+                  <div className='rounded p-2 text-sm cursor-pointer bg-teal-600 text-white hover:bg-white hover:text-teal-600'>
                   Node.js
                   </div>
-                  <div className='rounded p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black'>
-                  GraphQL
+                  <div className='rounded p-2 text-sm cursor-pointer bg-teal-600 text-white hover:bg-white hover:text-teal-600'>
+                  API Integration
                   </div>
-                  <div className='rounded p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black'>
+                  <div className='rounded p-2 text-sm cursor-pointer bg-teal-600 text-white hover:bg-white hover:text-teal-600'>
+                  Payment Processing Integration
+                  </div>
+                  <div className='rounded p-2 text-sm cursor-pointer bg-teal-600 text-white hover:bg-white hover:text-teal-600'>
+                  AI
+                  </div>
+                  <div className='rounded p-2 text-sm cursor-pointer bg-teal-600 text-white hover:bg-white hover:text-teal-600'>
                   Framer Motion
                   </div>
               </motion.div>
@@ -150,15 +155,15 @@ const AboutPage = () => {
                 <div className='w-1/3'>
                   {/*JOB TITLE*/}
                   <div className='bg-white p-3 font-semibold rounded-b-lg rounded-s-lg'>
-                    Freelance Nextjs Developer</div>
+                    Intern Frontend Developer at DeepTrack </div> 
                   {/*JOB DESC*/}
                   <div className='p-3 text-sm italic'>
-                    I enjoy working with the Nextjs framework to bring ideas to life
+                    I collaborated with a team to build UI of the company's website
                     </div>
                     {/*JOB DATE*/}
-                    <div className='p-3 text-green-400 text-sm font-semibold'>2023 - Present</div>
+                    <div className='p-3 text-green-400 text-sm font-semibold'>Nov 2024 - Dec 2024</div>
                     {/*JOB COMPANY*/}
-                    <div className='p-1 rounded bg-white text-sm font-semibold w-fit'>Freelance</div>
+                    <div className='p-1 rounded bg-white text-sm font-semibold w-fit'>Fulltime</div>
                    </div> 
                 {/*CENTER*/}
                 <div className='w-1/6'>
@@ -188,13 +193,14 @@ const AboutPage = () => {
                 <div className='w-1/3'>
                   {/*JOB TITLE*/}
                   <div className='bg-white p-3 font-semibold rounded-b-lg rounded-s-lg'>
-                    React and JavaScript Developer</div>
+                    React.js and Next.js Developer</div>
                   {/*JOB DESC*/}
                   <div className='p-3 text-sm italic'>
-                    indulged into JavaScript development and engineering using Reactjs.
+                    Indulged into React and Next frameworks and I have found them to be very useful to me.
+                    AI has also come in and is very useful to me as a user and developer.
                     </div>
                     {/*JOB DATE*/}
-                    <div className='p-3 text-red-400 text-sm font-semibold'>2022 - Present</div>
+                    <div className='p-3 text-red-400 text-sm font-semibold'>Jan 2023 - Present</div>
                     {/*JOB COMPANY*/}
                     <div className='p-1 rounded bg-white text-sm font-semibold w-fit'>Freelance</div></div>
                 </div>
@@ -204,10 +210,10 @@ const AboutPage = () => {
                 <div className='w-1/3'>
                   {/*JOB TITLE*/}
                   <div className='bg-white p-3 font-semibold rounded-b-lg rounded-s-lg'>
-                    HTML,CSS and Android Engineering</div>
+                    Learning HTML, CSS and JavaScript</div>
                   {/*JOB DESC*/}
                   <div className='p-3 text-sm italic'>
-                    Started my development career using HTML,CSS languages and also android development.
+                    Started my development career by learning HTML,CSS and JavaScript and have been my foundation in building web applications
                     </div>
                     {/*JOB DATE*/}
                     <div className='p-3 text-green-400 text-sm font-semibold'>2022 - Present</div>

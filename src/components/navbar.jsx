@@ -79,7 +79,11 @@ const Navbar = () => {
       </div>
       {/*LOGO*/}
       <div className="md:hidden lg:flex xl:w-1/3 xl:justify-center">
+<<<<<<< HEAD
         <Link href="/" className="text-sm bg-black rounded-md p-1 font-semibold flex items-center justify-center">
+=======
+        <Link href="/" className="text-sm bg-black border border-teal-600 rounded-md p-1 font-semibold flex items-center justify-center">
+>>>>>>> c522f69b325d59bef4b32cc5b4e09fdd2efbe0ae
           <span className="text-white mr-1">Alpha</span>
           <span className="w-12 h-8 rounded bg-white text-black flex items-center justify-center">Pubs</span>
         </Link>
