@@ -30,7 +30,7 @@ export default function HomePage() {
 </h1>
       {/* DESC */}
       <p className="text-bold md:text-xl text-teal-600">
-       My Digital Canvas. Innovation. Creativity</p>
+       Builder. Engineer. Creative</p>
       {/* BUTTONS*/}
       <div className='w-full flex gap-4'>
         <button className="p-4 rounded-lg ring-1 ring-black bg-teal-600 text-white">
