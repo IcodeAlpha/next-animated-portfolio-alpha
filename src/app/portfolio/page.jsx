@@ -10,7 +10,7 @@ const items = [
     color: "from-red-300 to-green-300",
     title: "Evently",
     desc: "A fullstack web application for an event platform where users can host, connect and celebrate events.",
-    img:"/evently.png",
+    img:"/events.png",
     link: "https://eventa-lake.vercel.app//",
   },
   {
@@ -18,7 +18,7 @@ const items = [
     color: "from-green-300 to-blue-300",
     title: "Travel Safe",
     desc: "Travel site landing page.",
-    img:"/work-3.png",
+    img:"/travel.png",
     link: "https://travelapp-lake.vercel.app/",
   },
 {
@@ -26,7 +26,7 @@ const items = [
   color: "from-blue-300 to-purple-300",
   title: "Banking Application",
   desc: "A real fullstack banking application that facilitates managing and using diffrerent bank and bank accounts globally",
-  img: "/horizon.png",
+  img: "/heaven.png",
   link: "https://finance-mu-eight.vercel.app/",
 },
 {
@@ -34,7 +34,7 @@ const items = [
   color: "from-purple-300 to-violet-300",
   title: "CarePulse",
   desc: "A patient management system",
-  img: "/carepulse.PNG",
+  img: "/carepulse.png",
   link: "https://carepulse-pied.vercel.app/",
 },
 {
@@ -42,16 +42,8 @@ const items = [
   color: "from-violet-300 to-green-300",
   title: "Expense Tracker",
   desc: "A Budgeting and Expense Tracking app.",
-  img:"/work-3.png",
+  img:"/xtracker.png",
   link: "https://expensetrack-alpha.vercel.app/",
-},
-{
-  id: 6,
-  color: "from-green-300 to-red-300",
-  title: "Restaurant UX Design",
-  desc: "A Healthy Dining Restaurant.",
-  img:"/chef.png",
-  link: "https://restaurant-kohl-seven.vercel.app/",
 },
 
 ];
